@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bilibili.bilibili.activity.SplashActivity">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_splash_default"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_splash_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
