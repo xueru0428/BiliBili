@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import bilibili.bilibili.R;
+import bilibili.bilibili.base.BaseActivity;
 import butterknife.Bind;
 
 public class SplashActivity extends BaseActivity {

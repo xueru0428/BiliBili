@@ -19,14 +19,16 @@ public class CatchFragment extends BaseFragment {
     }
 
     @Override
+    protected View initView() {
+        return textView;
+    }
+
+    @Override
     protected void intData() {
         textView = new TextView(getActivity());
         textView.setText("追番");
 
     }
 
-    @Override
-    public View getLayoutId() {
-        return textView;
-    }
+
 }

@@ -16,8 +16,11 @@ public abstract class BaseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return getLayoutId();
+
+        return initView();
     }
+
+
 
 
     @Override
@@ -27,9 +30,10 @@ public abstract class BaseFragment extends Fragment {
         intListener();
     }
 
+    protected abstract View initView();
+    protected abstract void intData();
     protected abstract void intListener();
 
-    protected abstract void intData();
 
-    public abstract View getLayoutId() ;
+
 }

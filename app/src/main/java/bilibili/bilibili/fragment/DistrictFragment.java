@@ -19,14 +19,15 @@ public class DistrictFragment extends BaseFragment {
     }
 
     @Override
+    protected View initView() {
+        return textView;
+    }
+
+    @Override
     protected void intData() {
         textView = new TextView(getActivity());
         textView.setText("分区");
 
     }
 
-    @Override
-    public View getLayoutId() {
-        return textView;
-    }
 }

@@ -19,14 +19,14 @@ public class RecommedFragment extends BaseFragment {
     }
 
     @Override
+    protected View initView() {
+        return textView;
+    }
+
+    @Override
     protected void intData() {
         textView = new TextView(getActivity());
         textView.setText("推荐");
 
-    }
-
-    @Override
-    public View getLayoutId() {
-        return textView;
     }
 }

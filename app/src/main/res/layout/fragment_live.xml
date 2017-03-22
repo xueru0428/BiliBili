@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_live"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#44000000"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:text="更多直播"
+        android:textSize="12sp"
+        android:id="@+id/live_more"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="40dp" />
+
+
+</RelativeLayout>
