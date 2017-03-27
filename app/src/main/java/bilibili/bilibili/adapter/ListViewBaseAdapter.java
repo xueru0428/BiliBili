@@ -1,4 +1,4 @@
-package bilibili.bilibili.base;
+package bilibili.bilibili.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
